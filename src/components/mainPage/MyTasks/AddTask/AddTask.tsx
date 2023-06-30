@@ -19,9 +19,6 @@ export function AddTask({ onTaskCreated }: AddTaskProps) {
 
     const clearTaskFields = () => {
         setTaskName('');
-        setTaskStatus(undefined);
-        setTaskPriority(undefined);
-        setTaskSize(undefined);
         setTaskDetails('');
     };
 
