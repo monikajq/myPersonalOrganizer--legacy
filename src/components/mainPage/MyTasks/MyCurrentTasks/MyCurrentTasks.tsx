@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './MyTasks.css';
-import { Task } from '../../../shared/model/task.model';
+import { Task } from '../../../../shared/model/task.model';
 
 interface MyCurrentTasksProps {
     currentTasks: Task[]
