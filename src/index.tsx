@@ -7,7 +7,7 @@ import {
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { MyResources } from './components/MyResources/MyResources';
+import { MyResources } from './components/myResources/MyResources';
 
 const router = createBrowserRouter([
   {
